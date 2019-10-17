@@ -274,16 +274,15 @@ export default class Welcome extends React.Component {
               </Typography>
               <Typography variant="h5" className={classes.link}
                           component="h2" onClick={openURL.bind(this,
-                'http://hacpai.com')}>
-                黑客派社区
+                'https://github.com/b3log/30-seconds-zh_CN')}>
+                前端知识精选集
               </Typography>
             </CardContent>
             <CardActions>
               <Button size="small" className={classes.ftOriginal}
                       onClick={openURL.bind(this,
-                        'https://hacpai.com/tag/bnd')}>
-                ⚡️
-                浏览 BND 相关讨论
+                        'https://hacpai.com/domain/frontend')}>
+                📙 浏览前端相关讨论
               </Button>
             </CardActions>
           </Card>
